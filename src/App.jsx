@@ -1,5 +1,6 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
+import Welcome from './Welcome.jsx';
 
 const App = () =>
 {
@@ -7,6 +8,7 @@ const App = () =>
     <>
       <div className="">
         <Header />
+        <Welcome />
         <Footer />
       </div>
     </>

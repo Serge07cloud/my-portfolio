@@ -1,8 +1,30 @@
 const Header = () =>
 {
+  const menu = [
+    {
+      name: "Home",
+      link: "#"
+    },
+    {
+      name: "Projects",
+      link: "#"
+    },
+    {
+      name: "About",
+      link: "#"
+    },
+    {
+      name: "Experience",
+      link: "#"
+    },
+    {
+      name: "Contact",
+      link: "#"
+    }
+  ]
   return (
     <>
-      <header className="bg-white dark:bg-gray-900">
+      <header className="bg-white dark:bg-gray-900 fixed w-full z-50">
         <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
@@ -20,13 +42,12 @@ const Header = () =>
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            <a href="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white">Home</a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white">Features</a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white">Marketplace</a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white">Company</a>
+            { menu.map((item, index) => (
+              <a key={ index } href={ item.link } className="text-sm/6 font-semibold text-gray-900 dark:text-white">{ item.name }</a>
+            )) }
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+            <a href="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white">Resume <span aria-hidden="true">&rarr;</span></a>
           </div>
         </nav>
       </header>
