@@ -5,8 +5,9 @@ const App = () =>
 {
   return (
     <>
-      <div className="bg-red-500 uppercase">
+      <div className="">
         <Header />
+        <Footer />
       </div>
     </>
   )
