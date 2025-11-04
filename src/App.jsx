@@ -1,6 +1,6 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import Welcome from './Welcome.jsx';
+import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
+import Welcome from './components/Welcome.jsx';
 
 const App = () =>
 {
