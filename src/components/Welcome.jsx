@@ -1,3 +1,5 @@
+import Projects from "./Projects";
+
 const Welcome = () =>
 {
   return (
@@ -53,6 +55,8 @@ const Welcome = () =>
             </a>
           </div>
         </div>
+
+        <Projects />
       </div>
     </>
   )
