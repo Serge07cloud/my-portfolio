@@ -1,15 +1,9 @@
-import Expertise from "./Expertise";
-import Projects from "./Projects";
-
 const Welcome = () =>
 {
   return (
     <>
-      <div className="isolate px-6 pt-14 lg:px-8 dark:bg-gray-900">
-        <div aria-hidden="true" className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
-          <div style={ { clipPath: 'polygon(74.1 % 44.1 %, 100 % 61.6 %, 97.5 % 26.9 %, 85.5 % 0.1 %, 80.7 % 2 %, 72.5 % 32.5 %, 60.2 % 62.4 %, 52.4 % 68.1 %, 47.5 % 58.3 %, 45.2 % 34.5 %, 27.5 % 76.7 %, 0.1 % 64.9 %, 17.9 % 100 %, 27.6 % 76.8 %, 76.1 % 97.7 %, 74.1 % 44.1 %)' } } className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"></div>
-        </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div>
+        <div className="mx-auto max-w-2xl py-48 sm:py-48 lg:py-48">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               Announcing our next round of funding. <a href="#" className="font-semibold text-indigo-400"><span aria-hidden="true" className="absolute inset-0"></span>Read more <span aria-hidden="true">&rarr;</span></a>
@@ -28,37 +22,34 @@ const Welcome = () =>
           <div style={ { clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)' } } className="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-288.75"></div>
         </div>
 
-        <div className="text-center">
-          <h1 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-4xl">Why hire <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Me?</span></h1>
-          <h1 className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-3xl">A Foundation of Trust and Excellence</h1>
-          <div className="text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
+        <div className="text-center mx-auto max-w-6xl pb-48 sm:pb-48 lg:pb-48">
+          <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Why hire <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Me?</span></h1>
+          <h1 className="py-3.5 text-3xl font-bold tracking-tight text-balance text-white sm:text-4xl">A Foundation of Trust and Excellence</h1>
+          <div className="text-lg font-medium text-pretty max-w-4xl mx-auto text-gray-400 sm:text-xl/8">
             I am committed to delivering not just code, but value. My work is built on a foundation of reliability, quality, and a proven ability to solve complex problems with data-driven results.
           </div>
 
           <div className="grid place-content-center lg:grid-cols-3 lg:gap-3 mt-20">
 
-            <a href="#" class="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" className="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             </a>
 
-            <a href="#" class="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" className="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             </a>
 
-            <a href="#" class="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" className="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             </a>
           </div>
         </div>
-
-        <Projects />
-        <Expertise />
       </div>
     </>
   )
