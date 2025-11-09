@@ -1,3 +1,5 @@
+import LanguageIcons from "./LanguageIcons";
+
 const Welcome = () =>
 {
   return (
@@ -22,9 +24,9 @@ const Welcome = () =>
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">I can help you turn your ideas in seamless digital experiences.</h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Hi, Welcome on my digital portfolio. I am <span className="text-xl  text-gray-50">Landry Konan</span>, a fullstack web developer building smart, fun and scalable web applications.</p>
-            <div className="border border-gray-50">
-              <p>Core technologies</p>
-              <div></div>
+            <div className="text-gray-50 py-4">
+              <p className="uppercase font-semibold text-sm">Core technologies</p>
+              <LanguageIcons />
             </div>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a href="#" className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Get in touch</a>
