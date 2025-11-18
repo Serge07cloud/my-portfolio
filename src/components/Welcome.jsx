@@ -1,4 +1,4 @@
-import LanguageIcons from "./LanguageIcons";
+import CoreTech from "./coreTech";
 
 const Welcome = () =>
 {
@@ -11,9 +11,9 @@ const Welcome = () =>
           </div>
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative flex justify-center items-center rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-              <span class="relative flex size-3 mx-2">
-                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-                <span class="relative inline-flex size-3 rounded-full bg-green-500"></span>
+              <span className="relative flex size-3 mx-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex size-3 rounded-full bg-green-500"></span>
               </span>
 
               <div>
@@ -24,12 +24,9 @@ const Welcome = () =>
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">I can help you turn your ideas in seamless digital experiences.</h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Hi, Welcome on my digital portfolio. I am <span className="text-xl  text-gray-50">Landry Konan</span>, a fullstack web developer building smart, fun and scalable web applications.</p>
-            <div className="text-gray-50 py-4">
-              <p className="uppercase font-semibold text-sm">Core technologies</p>
-              <LanguageIcons />
-            </div>
+            <CoreTech />
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a href="#" className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Get in touch</a>
+              <a href="#" className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 animate-pulse">Get in touch</a>
               <a href="#" className="text-sm/6 font-semibold text-white">See projects <span aria-hidden="true">→</span></a>
             </div>
           </div>
