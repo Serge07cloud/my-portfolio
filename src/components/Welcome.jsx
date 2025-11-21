@@ -38,14 +38,14 @@ const Welcome = () =>
         </div>
 
         <div className="text-center mx-auto max-w-5xl pb-24 sm:pb-24 lg:pb-24">
-          <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Why hire <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Me?</span></h1>
+          <h1 className="text-5xl font-bold tracking-tight text-balance text-white sm:text-5xl">Why hire <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Me?</span></h1>
           <h1 className="py-3.5 text-3xl font-bold tracking-tight text-balance text-white sm:text-4xl">A Foundation of Trust and Excellence</h1>
           <div className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-400 sm:text-xl/8">
             As a steadfast learner with strong analytical skills, I have trained for 5 years in building full-stack web applications, APIs, and BI dashboards from start to finish. I have a problem-solving mindset and a proven ability to adapt to large-scale projects. Beyond my technical skills, I am a collaborative team player who knows how to work with others to meet business goals. I am the right fit if you are looking for someone who combines precision with a problem-solving mindset.
           </div>
           <div className="grid place-content-center lg:grid-cols-3 lg:gap-3 mt-14">
 
-            <a href="#" className="max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-900 flex flex-column">
+            <a href="#" className="max-w-sm p-6 mb-7 bg-gray-900 border border-gray-200 rounded-lg shadow-sm  dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 flex flex-column">
               <FaArrowTrendUp size={ 70 } color="#bb7efe" className="mr-3 border border-[#352e60] w-fit h-fit p-2 rounded bg-[#24244c]" />
               <div className="text-left">
                 <h5 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
@@ -58,7 +58,7 @@ const Welcome = () =>
 
             </a>
 
-            <a href="#" className="max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-900 flex flex-column">
+            <a href="#" className="max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 flex flex-column">
               <GiOvermind size={ 70 } color="#51a2ff" className="mr-3 border border-[#233869] w-fit h-fit p-2 rounded bg-[#181e42]" />
               <div className="text-left">
                 <h5 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Trusted by collaborators</h5>
@@ -67,7 +67,7 @@ const Welcome = () =>
 
             </a>
 
-            <a href="#" className=" max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-900 flex flex-column">
+            <a href="#" className=" max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 flex flex-column">
               <GiGraduateCap size={ 70 } color="#ffffff" className="mr-3 border border-[#50431e] w-fit h-fit p-2 rounded bg-[#24244c]" />
               <div className="text-left">
                 <h5 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">MIAGE Graduated</h5>
