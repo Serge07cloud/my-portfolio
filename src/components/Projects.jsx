@@ -13,7 +13,6 @@ const Projects = () =>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
 
-
               <article className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                   <img className="rounded-t-lg" src="https://images.unsplash.com/photo-1759049219585-4feb729fb018?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1278" alt="" />
