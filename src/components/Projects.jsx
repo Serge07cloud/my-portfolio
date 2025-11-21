@@ -14,7 +14,7 @@ const Projects = () =>
   return (
     <>
       <div className="text-center mx-auto max-w-6xl pb-48 sm:pb-48 lg:pb-48">
-        <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl">My Featured <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500">Projects</span>
+        <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl">My Featured <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-500 via-purple-500 to-blue-500">Projects</span>
         </h1>
         <h1 className="py-3.5 text-3xl font-bold tracking-tight text-balance text-gray-400 dark:text-white sm:text-4xl">Recent projects</h1>
         <div className="text-lg font-normal text-pretty max-w-3xl mx-auto text-gray-600 sm:text-xl/8">
@@ -23,11 +23,11 @@ const Projects = () =>
 
         <div className="dark:bg-gray-900">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <div className="mt-10 grid max-w-2xl mx-auto justify-items-center grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
 
               <article className="max-w-sm bg-white border border-gray-200 rounded-md shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <a href="#" className=''>
-                  <img className="rounded-lg object-cover h-50" src={ Intraversalis } alt="" />
+                  <img className="rounded-lg object-cover h-50 w-full" src={ Intraversalis } alt="" />
                 </a>
                 <div className="p-5">
                   <a href="#">
