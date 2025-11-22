@@ -6,27 +6,51 @@ const Experience = () =>
         <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl">Work <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-500 via-purple-500 to-blue-500">Experience</span>
         </h1>
         <div className="text-lg font-normal py-5 text-pretty text-gray-600 sm:text-xl/8">
-          A selection of my work that demonstrates my skills in software engineering, from concept to deployment.
+          My professional journey so far.
         </div>
-        <div className="grid place-content-center lg:grid-cols-3 lg:gap-3 mt-20">
 
-          <a href="#" className="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">Section 1</p>
-          </a>
-
-          <a href="#" className="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">Section 2</p>
-          </a>
-
-          <a href="#" className="block max-w-sm p-6 mb-7 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">Section 3</p>
-          </a>
+        <div id="accordion-open" data-accordion="open" className="rounded ring-1 ring-black/10 overflow-hidden shadow-xs">
+          <h2 id="accordion-open-heading-1">
+            <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-body rounded-t-sm border border-t-0 border-x-0 border-b-default border-gray-300 hover:text-heading hover:bg-neutral-secondary-medium gap-3" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
+              <span className="flex items-center"><svg className="w-5 h-5 me-2 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.529 9.988a2.502 2.502 0 1 1 5 .191A2.441 2.441 0 0 1 12 12.582V14m-.01 3.008H12M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>What is Flowbite?</span>
+              <svg data-accordion-icon className="w-5 h-5 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 15 7-7 7 7" /></svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-1" className="hidden border border-s-0 border-e-0 border-t-0 border-b-default border-gray-300" aria-labelledby="accordion-open-heading-1">
+            <div className="p-4 md:p-5">
+              <p className="mb-2 text-body">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+              <p className="text-body">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" className="text-fg-brand hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-2">
+            <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-body border border-x-0 border-b-default border-t-0 hover:text-heading border-gray-300 hover:bg-neutral-secondary-medium gap-3" data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-2">
+              <span className="flex items-center"><svg className="w-5 h-5 me-2 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.529 9.988a2.502 2.502 0 1 1 5 .191A2.441 2.441 0 0 1 12 12.582V14m-.01 3.008H12M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>Is there a Figma file available?</span>
+              <svg data-accordion-icon className="w-5 h-5 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 15 7-7 7 7" /></svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-2" className="hidden border border-s-0 border-e-0 border-t-0 border-b-default" aria-labelledby="accordion-open-heading-2">
+            <div className="p-4 md:p-5">
+              <p className="mb-2 text-body">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+              <p className="text-body">Check out the <a href="https://flowbite.com/figma/" className="text-fg-brand hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-3">
+            <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-body hover:text-heading hover:bg-neutral-secondary-medium gap-3" data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-3">
+              <span className="flex items-center"><svg className="w-5 h-5 me-2 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.529 9.988a2.502 2.502 0 1 1 5 .191A2.441 2.441 0 0 1 12 12.582V14m-.01 3.008H12M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg> What are the differences between Flowbite and Tailwind UI?</span>
+              <svg data-accordion-icon className="w-5 h-5 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 15 7-7 7 7" /></svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-3" className="hidden" aria-labelledby="accordion-open-heading-3">
+            <div className="p-4 md:p-5 border border-t-default border-b-0 border-x-0">
+              <p className="mb-2 text-body">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+              <p className="mb-2 text-body">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+              <p className="mb-2 text-body">Learn more about these technologies:</p>
+              <ul className="ps-5 text-body list-disc">
+                <li><a href="https://flowbite.com/pro/" className="text-fg-brand hover:underline">Flowbite Pro</a></li>
+                <li><a href="https://tailwindui.com/" rel="nofollow" className="text-fg-brand hover:underline">Tailwind UI</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </>
