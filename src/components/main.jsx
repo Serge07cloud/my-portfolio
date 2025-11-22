@@ -1,7 +1,7 @@
-import Welcome from "./Welcome";
-import Projects from "./Projects";
-import Expertise from "./Expertise";
-import Calling from "./Calling";
+import Welcome from "./welcome";
+import Projects from "./projects";
+import Experience from "./experience";
+import ReachMe from "./reachMe";
 
 const Main = () =>
 {
@@ -10,8 +10,8 @@ const Main = () =>
       <div className="isolate dark:bg-gray-900">
         <Welcome />
         <Projects />
-        <Expertise />
-        <Calling />
+        <Experience />
+        <ReachMe />
       </div>
     </>
   )

@@ -13,7 +13,7 @@ const Projects = () =>
 {
   return (
     <>
-      <div className="text-center mx-auto max-w-6xl pb-48 sm:pb-48 lg:pb-48">
+      <div className="text-center mx-auto max-w-6xl pb-24 sm:pb-24 lg:pb-24">
         <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl">My Featured <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-500 via-purple-500 to-blue-500">Projects</span>
         </h1>
         <h1 className="py-3.5 text-3xl font-bold tracking-tight text-balance text-gray-400 dark:text-white sm:text-4xl">Recent projects</h1>

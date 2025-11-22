@@ -1,11 +1,11 @@
-const Expertise = () =>
+const Experience = () =>
 {
   return (
     <>
-      <div className="text-center mx-auto max-w-6xl pb-48 sm:pb-48 lg:pb-48">
-        <h1 className="text-5xl font-bold tracking-tight text-balance text-white sm:text-5xl">My Research <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500">Expertise</span>
+      <div className="text-center mx-auto max-w-6xl pb-24 sm:pb-24 lg:pb-24">
+        <h1 className="text-5xl font-bold tracking-tight text-balance dark:text-white sm:text-5xl">Work <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-500 via-purple-500 to-blue-500">Experience</span>
         </h1>
-        <div className="text-lg font-medium py-5 text-pretty text-gray-400 sm:text-xl/8">
+        <div className="text-lg font-normal py-5 text-pretty text-gray-600 sm:text-xl/8">
           A selection of my work that demonstrates my skills in software engineering, from concept to deployment.
         </div>
         <div className="grid place-content-center lg:grid-cols-3 lg:gap-3 mt-20">
@@ -33,4 +33,4 @@ const Expertise = () =>
   )
 };
 
-export default Expertise
+export default Experience
